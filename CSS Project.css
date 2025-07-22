@@ -1,0 +1,63 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif, sans-serif;
+  margin: 20px;
+  background-color: #d5e1c0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#taskmanager {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.task div {
+  min-width: 100px;
+}
+
+.important {
+  background-color: #ffe6e6;
+  border-left: 5px solid red;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.important {
+  background-color: #ffe6e6;
+  border-left: 5px solid red;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.add-button {
+  background-color: #2e7d32;  
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background-color: #1b5e20;  
+}
